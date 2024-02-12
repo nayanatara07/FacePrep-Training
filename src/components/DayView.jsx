@@ -2,8 +2,8 @@ import React from 'react';
 import { FaDownload } from "react-icons/fa6";
 import { generateTextContent, textDownloader } from '../utils/downloader';
 
-const MonthlyView = ({ year, month, newsData }) => {
-    if (!newsData || Object.keys(newsData).length === 0)
+const DayView = ({programData }) => {
+    if (!programData || Object.keys(programData).length === 0)
     {
         return (
             <div className="table-mini">
@@ -14,12 +14,12 @@ const MonthlyView = ({ year, month, newsData }) => {
         );
     }
 
-    const sortedDays = Object.keys(newsData).sort((a, b) => parseInt(b, 10) - parseInt(a, 10));
+    const sortedDays = Object.keys(programData).sort((a, b) => parseInt(b, 10) - parseInt(a, 10));
 
     const DownloadOption = ({ newsDay }) => {
 
         return (
-            <div className="download flex space-around" onClick={() => textDownloader(generateTextContent(newsData[newsDay], month, newsDay), `${month}-${newsDay}`)}>
+            <div className="download flex space-around" onClick={() => textDownloader(generateTextContent(programData[newsDay], month, newsDay), `${month}-${newsDay}`)}>
                 <FaDownload />
             </div>
         )
@@ -60,7 +60,7 @@ const MonthlyView = ({ year, month, newsData }) => {
                                     <h3>{`${month} ${unpaddedDay}, ${year} | ${dayOfWeek}`}</h3>
                                     <DownloadOption newsDay={day} />
                                 </div>
-                                {newsData[day].map((article, index) => (
+                                {programData[day].map((article, index) => (
                                     <li key={index} className='flex space-around'>
                                         <a href={article.source} target='_blank'>
                                             <strong>{article.headline}</strong>
@@ -77,4 +77,4 @@ const MonthlyView = ({ year, month, newsData }) => {
     );
 };
 
-export default MonthlyView;
+export default DayView;
