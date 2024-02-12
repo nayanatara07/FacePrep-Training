@@ -18,16 +18,19 @@ console.log(selectedDay)
     return (
         <div className="table-mini">
             <div className='table-mini-inner'>
-                    <div>
-                        <h2>Day: {programData}</h2>
+                    <ul >
+                        {/* <h2>Day: {programData}</h2> */}
+                        <div>{selectedDay["date"]}</div>
                         {selectedDay["programs"].map(program => (
-                            <div key={program.name}>
-                                <p>Name: {program.name}</p>
-                                <p>Day: {programData}</p>
-                                <p>Code: {program.code}</p>
-                            </div>
+
+                            <li key={program.name}>
+                                <p>{program.name}</p>
+                                {/* <p>Day: {programData}</p> */}
+                                {/* <p>Code: {program.code}</p> */}
+                            </li>
+
                         ))}
-                    </div>
+                    </ul>
             </div>
         </div>
     );
