@@ -20,7 +20,7 @@
       "programs": [
         {
           "name": "program1.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+          "code": "program of day 1"
         },
         {
           "name": "program2.c",
@@ -63,7 +63,7 @@
       "programs": [
         {
           "name": "program1.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+          "code": "Program of day 4"
         },
         {
           "name": "program2.c",

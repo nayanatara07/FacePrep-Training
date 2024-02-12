@@ -13,17 +13,28 @@ const DayView = ({programData }) => {
         );
     }
 
+    const selectedDay = Programs[programData]
+console.log(selectedDay)
     return (
         <div className="table-mini">
             <div className='table-mini-inner'>
-                {Programs.map(each =>
-                    each.Programs.map(eachInner =>
-                         eachInner.name
-                        )
-                    )}
+                    <div>
+                        <h2>Day: {programData}</h2>
+                        {selectedDay["programs"].map(program => (
+                            <div key={program.name}>
+                                <p>Name: {program.name}</p>
+                                <p>Day: {programData}</p>
+                                <p>Code: {program.code}</p>
+                            </div>
+                        ))}
+                    </div>
             </div>
         </div>
     );
+
+    // return (
+    //     <>{programData} is the content</>
+    // )
 };
 
 export default DayView;

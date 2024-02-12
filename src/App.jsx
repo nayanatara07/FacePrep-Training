@@ -9,7 +9,7 @@ const App = () => {
         <div className='container flex flex-column space-between'>
             <NavBar />
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
