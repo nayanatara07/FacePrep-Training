@@ -4,7 +4,6 @@ import App from "./App";
 import "./index.css";
 import DayView from "./components/DayView";
 import NotFoundPage from "./components/404Error";
-import Programs from "./data/programs.json";
 
 
 const days = [ "day_0", "day_1", "day_2", "day_3", "day_4"];

@@ -1,77 +1,76 @@
 {
 
   "day_0":
-  {
-    "date": "2024-02-12",
-    "programs": [
-      {
-        "name": "program1.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
-      },
-      {
-        "name": "program2.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
-      }
-    ]
-  },
+    {
+      "date": "2024-02-12",
+      "programs": [
+        {
+          "name": "program1.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+        },
+        {
+          "name": "program2.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
+        }
+      ]
+    },
   "day_1":
-  {
-    "date": "2024-02-12",
-    "programs": [
-      {
-        "name": "program1.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
-      },
-      {
-        "name": "program2.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
-      }
-    ]
-  },
+    {
+      "date": "2024-02-12",
+      "programs": [
+        {
+          "name": "program1.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+        },
+        {
+          "name": "program2.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
+        }
+      ]
+    },
 
   "day_2":
-  {
-    "date": "2024-02-12",
-    "programs": [
-      {
-        "name": "program1.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
-      },
-      {
-        "name": "program2.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
-      }
-    ]
-  },
+    {
+      "date": "2024-02-12",
+      "programs": [
+        {
+          "name": "program1.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+        },
+        {
+          "name": "program2.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
+        }
+      ]
+    },
   "day_3":
-  {
-    "date": "2024-02-12",
-    "programs": [
-      {
-        "name": "program1.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
-      },
-      {
-        "name": "program2.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
-      }
-    ]
-  },
+    {
+      "date": "2024-02-12",
+      "programs": [
+        {
+          "name": "program1.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+        },
+        {
+          "name": "program2.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
+        }
+      ]
+    },
   "day_4":
-  {
-    "date": "2024-02-12",
-    "programs": [
-      {
-        "name": "program1.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
-      },
-      {
-        "name": "program2.c",
-        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
-      }
-    ]
-  }
-
+    {
+      "date": "2024-02-12",
+      "programs": [
+        {
+          "name": "program1.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+        },
+        {
+          "name": "program2.c",
+          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}"
+        }
+      ]
+    }
 }
 
   
