@@ -10,7 +10,7 @@ function RowComponent({ day }) {
   // Define the links for each button
   const links = {
     Day1: [
-      { label: 'Classwork Programs', link: '/day1/classwork' },
+      { label: 'Classwork Programs', link: 'https://brave-temple-b28.notion.site/DAY-1-Class-Work-Programs-551e196b41e5420da1ffe51754646e3b' },
       { label: 'Practice Programs', link: '/day1/practice' }
       // Add more links as needed for Day1
     ],
