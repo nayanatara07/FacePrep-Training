@@ -6,22 +6,39 @@ import './RowComponent.css'; // Import CSS file for styling
 
 function RowComponent({ day }) {
   const [isClicked, setIsClicked] = useState(false);
-  const [programs, setPrograms] = useState([]);
 
-  // Define program data in JSON format for each day
-  const programData = {
-    Day1: ['Classwork Programs', 'Practice Programs'], // Example programs for Day1
-    Day2: ['Classwork Programs', 'Practice Programs'], // Example programs for Day2
-    Day3: ['Classwork Programs', 'Practice Programs'],
-    Day4: ['Classwork Programs', 'Practice Programs'],
-    Day5: ['Classwork Programs', 'Practice Programs'],
-    // Add program data for other days similarly
+  // Define the links for each button
+  const links = {
+    Day1: [
+      { label: 'Classwork Programs', link: '/day1/classwork' },
+      { label: 'Practice Programs', link: '/day1/practice' }
+      // Add more links as needed for Day1
+    ],
+    Day2: [
+      { label: 'Classwork Programs', link: '/day2/classwork' },
+      { label: 'Practice Programs', link: '/day2/practice' }
+      // Add more links as needed for Day2
+    ],
+    Day3: [
+      { label: 'Classwork Programs', link: '/day3/classwork' },
+      { label: 'Practice Programs', link: '/day3/practice' }
+      // Add more links as needed for Day3
+    ],
+    Day4: [
+      { label: 'Classwork Programs', link: '/day4/classwork' },
+      { label: 'Practice Programs', link: '/day4/practice' }
+      // Add more links as needed for Day4
+    ],
+    Day5: [
+      { label: 'Classwork Programs', link: '/day5/classwork' },
+      { label: 'Practice Programs', link: '/day5/practice' }
+      // Add more links as needed for Day5
+    ],
   };
 
   // Function to handle click on a day
   const handleClick = () => {
     setIsClicked(!isClicked); // Toggle the isClicked state
-    setPrograms(programData[day] || []); // Set programs for the clicked day
   };
 
   return (
@@ -29,9 +46,9 @@ function RowComponent({ day }) {
       <h2 className="day-text">{day}</h2>
       {isClicked && (
         <div className="buttons-container">
-          {programs.map((program, index) => (
-            <Link key={index} to={`/${day}/${program}`}>
-              <button className="program-button">{program}</button>
+          {links[day].map(({ label, link }, index) => (
+            <Link key={index} to={link}>
+              <button className="program-button">{label}</button>
             </Link>
           ))}
         </div>
@@ -41,7 +58,3 @@ function RowComponent({ day }) {
 }
 
 export default RowComponent;
-
-
-
-
