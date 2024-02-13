@@ -1,0 +1,25 @@
+/* BoxComponent.css */
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 400px; /* Adjust the width of the box as needed */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .row {
+    margin: 10px 0; /* Add margin between rows for visibility */
+    cursor: pointer;
+  }
+  
