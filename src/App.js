@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<BoxComponent />} />
-        {/* Add more routes for specific days if needed */}
+        {}
       </Routes>
     </Router>
   );

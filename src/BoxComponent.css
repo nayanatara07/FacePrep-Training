@@ -1,45 +1,42 @@
-/* BoxComponent.css */
-
 .center-box {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('hover.png'); /* Set background image */
-  background-size: cover; /* Ensure the background image covers the entire box */
-  background-position: center; /* Center the background image */
+  background-image: url('hover.png'); 
+  background-size: cover; 
+  background-position: center; 
 }
 
 .box {
-  width: 400px; /* Adjust the width of the box as needed */
+  width: 400px; 
   padding: 20px;
   border: 2px solid #ccc;
-  border-radius: 10px; /* Add border radius for a rounded appearance */
-  display: flex; /* Use flexbox for centering content */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
+  border-radius: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .row {
   cursor: pointer;
-  width: 100%; /* Ensure rows take up full width of the box */
-  box-sizing: border-box; /* Include padding and border in width calculation */
-  padding: 10px; /* Add padding for better appearance */
-  margin-top: 5px; /* Add margin between rows */
-  margin-bottom: 5px; /* Add margin between rows */
+  width: 100%; 
+  box-sizing: border-box; 
+  padding: 10px; 
+  margin-top: 5px; 
+  margin-bottom: 5px; 
 }
 
-/* Add alternating row colors */
+
 .row:nth-child(even) {
-  background-color: #c9ecc8; /* Light green color for even rows */
+  background-color: #c9ecc8; 
 }
 
 .row:nth-child(odd) {
-  background-color: #92d050; /* Dark green color for odd rows */
+  background-color: #92d050; 
 }
 
-/* Add styling for separating lines */
 .row:not(:last-child) {
-  border-bottom: 1px solid #999; /* Add a border at the bottom of each row except the last one */
+  border-bottom: 1px solid #999; 
 }

@@ -1,8 +1,6 @@
-// BoxComponent.js
-
 import React from 'react';
 import RowComponent from './RowComponent';
-import './BoxComponent.css'; // Import CSS file for styling
+import './BoxComponent.css'; 
 
 function BoxComponent() {
   const days = ['Day1', 'Day2', 'Day3', 'Day4', 'Day5'];
