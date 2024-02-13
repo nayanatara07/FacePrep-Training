@@ -59,7 +59,7 @@ The repository structure is as follows:
 
 ## Resources
 
-- [Faceprep Official Website](https://faceprep.in)
+- [FacePrep Official Website](https://faceprep.in)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Router Documentation](https://reactrouter.com/web/guides/quick-start)
 
