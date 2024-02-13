@@ -183,7 +183,7 @@ nav .days div:hover {
 }
 
 h3 {
-	font-size: large;
+	color: var(--color-primary)
 }
 strong {
 	color: var(--color-primary);

@@ -22,9 +22,9 @@ console.log(selectedDay)
                         {/* <h2>Day: {programData}</h2> */}
                         <div>{selectedDay["date"]}</div>
                         {selectedDay["programs"].map(program => (
-
                             <li key={program.name}>
-                                <p>{program.name}</p>
+                                <h3>{program.name}</h3>
+                                <p>{program.description}</p>
                                 {/* <p>Day: {programData}</p> */}
                                 {/* <p>Code: {program.code}</p> */}
                             </li>
