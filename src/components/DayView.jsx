@@ -26,7 +26,7 @@ console.log(selectedDay)
                                 <h3>{program.name}</h3>
                                 <p>{program.description}</p>
                                 {/* <p>Day: {programData}</p> */}
-                                {/* <p>Code: {program.code}</p> */}
+                                <p>{program.code}</p>
                             </li>
 
                         ))}

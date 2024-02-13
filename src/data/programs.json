@@ -1,82 +1,152 @@
 {
-  "day_0":
-    {
-      "date": "2024-02-12",
-      "programs": [
-        {
-          "name": "HelloWorld.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
-          "description": "Prints 'Hello, World!' to the console."
-        },
-        {
-          "name": "Addition.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
-          "description": "Accepts two integers from the user and prints their sum."
-        }
-      ]
-    },
-  "day_1":
-    {
-      "date": "2024-02-13",
-      "programs": [
-        {
-          "name": "HelloWorld.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Bonjour, World!\\n\");\n    return 0;\n}",
-          "description": "Prints 'Bonjour, World!' to the console."
-        },
-        {
-          "name": "Addition.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
-          "description": "Accepts two integers from the user and prints their sum."
-        }
-      ]
-    },
-  "day_2":
-    {
-      "date": "2024-02-14",
-      "programs": [
-        {
-          "name": "HelloWorld.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hola, World!\\n\");\n    return 0;\n}",
-          "description": "Prints 'Hola, World!' to the console."
-        },
-        {
-          "name": "Addition.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
-          "description": "Accepts two integers from the user and prints their sum."
-        }
-      ]
-    },
-  "day_3":
-    {
-      "date": "2024-02-15",
-      "programs": [
-        {
-          "name": "HelloWorld.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hallo, World!\\n\");\n    return 0;\n}",
-          "description": "Prints 'Hallo, World!' to the console."
-        },
-        {
-          "name": "Addition.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
-          "description": "Accepts two integers from the user and prints their sum."
-        }
-      ]
-    },
-  "day_4":
-    {
-      "date": "2024-02-16",
-      "programs": [
-        {
-          "name": "HelloWorld.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Ciao, World!\\n\");\n    return 0;\n}",
-          "description": "Prints 'Ciao, World!' to the console."
-        },
-        {
-          "name": "Addition.c",
-          "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
-          "description": "Accepts two integers from the user and prints their sum."
-        }
-      ]
-    }
+  "day_0": {
+    "date": "2024-02-12",
+    "programs": [
+      {
+        "name": "HelloWorld.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
+        "description": "Prints 'Hello, World!' to the console."
+      },
+      {
+        "name": "Addition.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
+        "description": "Accepts two integers from the user and prints their sum."
+      },
+      {
+        "name": "Factorial.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint factorial(int n) {\n    if (n == 0)\n        return 1;\n    else\n        return n * factorial(n-1);\n}\n\nint main() {\n    int num;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &num);\n    printf(\"Factorial of %d is %d\\n\", num, factorial(num));\n    return 0;\n}",
+        "description": "Calculates the factorial of a number."
+      },
+      {
+        "name": "Fibonacci.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint fibonacci(int n) {\n    if (n <= 1)\n        return n;\n    return fibonacci(n-1) + fibonacci(n-2);\n}\n\nint main() {\n    int num;\n    printf(\"Enter the number of terms: \");\n    scanf(\"%d\", &num);\n    printf(\"Fibonacci Series: \");\n    for (int i = 0; i < num; i++)\n        printf(\"%d \", fibonacci(i));\n    return 0;\n}",
+        "description": "Prints Fibonacci series up to a given number of terms."
+      },
+      {
+        "name": "PrimeNumber.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#include <stdbool.h>\n\nbool isPrime(int n) {\n    if (n <= 1)\n        return false;\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0)\n            return false;\n    }\n    return true;\n}\n\nint main() {\n    int num;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &num);\n    if (isPrime(num))\n        printf(\"%d is a prime number.\\n\", num);\n    else\n        printf(\"%d is not a prime number.\\n\", num);\n    return 0;\n}",
+        "description": "Checks if a number is prime or not."
+      }
+    ]
+  },
+  "day_1": {
+    "date": "2024-02-13",
+    "programs": [
+      {
+        "name": "HelloWorld.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Bonjour, World!\\n\");\n    return 0;\n}",
+        "description": "Prints 'Bonjour, World!' to the console."
+      },
+      {
+        "name": "Addition.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
+        "description": "Accepts two integers from the user and prints their sum."
+      },
+      {
+        "name": "MultiplicationTable.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num;\n    printf(\"Enter a number: \");\n    scanf(\"%d\", &num);\n    printf(\"Multiplication Table of %d:\\n\", num);\n    for (int i = 1; i <= 10; i++)\n        printf(\"%d x %d = %d\\n\", num, i, num * i);\n    return 0;\n}",
+        "description": "Prints the multiplication table of a number."
+      },
+      {
+        "name": "ReverseNumber.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num, reversed = 0, remainder;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &num);\n    while (num != 0) {\n        remainder = num % 10;\n        reversed = reversed * 10 + remainder;\n        num /= 10;\n    }\n    printf(\"Reversed number: %d\\n\", reversed);\n    return 0;\n}",
+        "description": "Reverses a given integer."
+      },
+      {
+        "name": "Palindrome.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#include <stdbool.h>\n\nbool isPalindrome(int num) {\n    int reversed = 0, originalNum = num;\n    while (num != 0) {\n        int remainder = num % 10;\n        reversed = reversed * 10 + remainder;\n        num /= 10;\n    }\n    return originalNum == reversed;\n}\n\nint main() {\n    int num;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &num);\n    if (isPalindrome(num))\n        printf(\"%d is a palindrome.\\n\", num);\n    else\n        printf(\"%d is not a palindrome.\\n\", num);\n    return 0;\n}",
+        "description": "Checks if a number is a palindrome."
+      }
+    ]
+  },
+  "day_2": {
+    "date": "2024-02-14",
+    "programs": [
+      {
+        "name": "HelloWorld.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hola, World!\\n\");\n    return 0;\n}",
+        "description": "Prints 'Hola, World!' to the console."
+      },
+      {
+        "name": "Addition.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
+        "description": "Accepts two integers from the user and prints their sum."
+      },
+      {
+        "name": "AreaOfCircle.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#define PI 3.14159\n\nint main() {\n    float radius, area;\n    printf(\"Enter the radius of the circle: \");\n    scanf(\"%f\", &radius);\n    area = PI * radius * radius;\n    printf(\"Area of the circle: %.2f\\n\", area);\n    return 0;\n}",
+        "description": "Calculates the area of a circle."
+      },
+      {
+        "name": "VolumeOfSphere.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#define PI 3.14159\n\nint main() {\n    float radius, volume;\n    printf(\"Enter the radius of the sphere: \");\n    scanf(\"%f\", &radius);\n    volume = (4.0 / 3.0) * PI * radius * radius * radius;\n    printf(\"Volume of the sphere: %.2f\\n\", volume);\n    return 0;\n}",
+        "description": "Calculates the volume of a sphere."
+      },
+      {
+        "name": "TriangleType.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int angle1, angle2, angle3;\n    printf(\"Enter three angles of triangle: \");\n    scanf(\"%d %d %d\", &angle1, &angle2, &angle3);\n    if (angle1 + angle2 + angle3 == 180) {\n        if (angle1 == angle2 && angle2 == angle3)\n            printf(\"Equilateral Triangle\\n\");\n        else if (angle1 == angle2 || angle1 == angle3 || angle2 == angle3)\n            printf(\"Isosceles Triangle\\n\");\n        else\n            printf(\"Scalene Triangle\\n\");\n    } else {\n        printf(\"Not a valid triangle.\\n\");\n    }\n    return 0;\n}",
+        "description": "Determines the type of triangle based on its angles."
+      }
+    ]
+  },
+  "day_3": {
+    "date": "2024-02-15",
+    "programs": [
+      {
+        "name": "HelloWorld.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Hallo, World!\\n\");\n    return 0;\n}",
+        "description": "Prints 'Hallo, World!' to the console."
+      },
+      {
+        "name": "Addition.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
+        "description": "Accepts two integers from the user and prints their sum."
+      },
+      {
+        "name": "QuadraticRoots.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#include <math.h>\n\nint main() {\n    float a, b, c, discriminant, root1, root2;\n    printf(\"Enter coefficients a, b, and c: \");\n    scanf(\"%f %f %f\", &a, &b, &c);\n    discriminant = b * b - 4 * a * c;\n    if (discriminant > 0) {\n        root1 = (-b + sqrt(discriminant)) / (2 * a);\n        root2 = (-b - sqrt(discriminant)) / (2 * a);\n        printf(\"Roots are real and distinct: %.2f and %.2f\\n\", root1, root2);\n    } else if (discriminant == 0) {\n        root1 = root2 = -b / (2 * a);\n        printf(\"Roots are real and equal: %.2f\\n\", root1);\n    } else {\n        float realPart = -b / (2 * a);\n        float imaginaryPart = sqrt(-discriminant) / (2 * a);\n        printf(\"Roots are complex: %.2f+%.2fi and %.2f-%.2fi\\n\", realPart, imaginaryPart, realPart, imaginaryPart);\n    }\n    return 0;\n}",
+        "description": "Finds the roots of a quadratic equation."
+      },
+      {
+        "name": "ArmstrongNumber.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#include <math.h>\n\nint main() {\n    int num, originalNum, remainder, result = 0, n = 0;\n    printf(\"Enter an integer: \");\n    scanf(\"%d\", &num);\n    originalNum = num;\n    while (originalNum != 0) {\n        originalNum /= 10;\n        ++n;\n    }\n    originalNum = num;\n    while (originalNum != 0) {\n        remainder = originalNum % 10;\n        result += pow(remainder, n);\n        originalNum /= 10;\n    }\n    if (result == num)\n        printf(\"%d is an Armstrong number.\\n\", num);\n    else\n        printf(\"%d is not an Armstrong number.\\n\", num);\n    return 0;\n}",
+        "description": "Checks if a number is an Armstrong number or not."
+      },
+      {
+        "name": "LargestAmongThree.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, num3;\n    printf(\"Enter three numbers: \");\n    scanf(\"%d %d %d\", &num1, &num2, &num3);\n    if (num1 >= num2 && num1 >= num3)\n        printf(\"%d is the largest number.\\n\", num1);\n    else if (num2 >= num1 && num2 >= num3)\n        printf(\"%d is the largest number.\\n\", num2);\n    else\n        printf(\"%d is the largest number.\\n\", num3);\n    return 0;\n}",
+        "description": "Finds the largest among three numbers."
+      }
+    ]
+  },
+  "day_4": {
+    "date": "2024-02-16",
+    "programs": [
+      {
+        "name": "HelloWorld.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    printf(\"Ciao, World!\\n\");\n    return 0;\n}",
+        "description": "Prints 'Ciao, World!' to the console."
+      },
+      {
+        "name": "Addition.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, sum;\n\n    printf(\"Enter two integers: \");\n    scanf(\"%d %d\", &num1, &num2);\n\n    sum = num1 + num2;\n\n    printf(\"Sum: %d\\n\", sum);\n\n    return 0;\n}",
+        "description": "Accepts two integers from the user and prints their sum."
+      },
+      {
+        "name": "Power.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double base, exponent, result;\n    printf(\"Enter the base: \");\n    scanf(\"%lf\", &base);\n    printf(\"Enter the exponent: \");\n    scanf(\"%lf\", &exponent);\n    result = pow(base, exponent);\n    printf(\"%lf^%lf = %lf\\n\", base, exponent, result);\n    return 0;\n}",
+        "description": "Calculates the power of a number."
+      },
+      {
+        "name": "QuotientRemainder.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int dividend, divisor, quotient, remainder;\n    printf(\"Enter dividend: \");\n    scanf(\"%d\", &dividend);\n    printf(\"Enter divisor: \");\n    scanf(\"%d\", &divisor);\n    quotient = dividend / divisor;\n    remainder = dividend % divisor;\n    printf(\"Quotient = %d\\n\", quotient);\n    printf(\"Remainder = %d\\n\", remainder);\n    return 0;\n}",
+        "description": "Finds quotient and remainder."
+      },
+      {
+        "name": "SwapNumbers.c",
+        "code": "// Your C program code here\n#include <stdio.h>\n\nint main() {\n    int num1, num2, temp;\n    printf(\"Enter first number: \");\n    scanf(\"%d\", &num1);\n    printf(\"Enter second number: \");\n    scanf(\"%d\", &num2);\n    temp = num1;\n    num1 = num2;\n    num2 = temp;\n    printf(\"After swapping, first number = %d\\n\", num1);\n    printf(\"After swapping, second number = %d\\n\", num2);\n    return 0;\n}",
+        "description": "Swaps two numbers."
+      }
+    ]
+  }
 }
