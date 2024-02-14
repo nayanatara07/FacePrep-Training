@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/faceprep-training/static/css/main.135f247c.css",
+    "main.js": "/faceprep-training/static/js/main.3f8d78b4.js",
+    "static/js/592.a2af2e53.chunk.js": "/faceprep-training/static/js/592.a2af2e53.chunk.js",
+    "static/media/hover.png": "/faceprep-training/static/media/hover.310a5b76e90cebc0b8bd.png",
+    "index.html": "/faceprep-training/index.html",
+    "main.135f247c.css.map": "/faceprep-training/static/css/main.135f247c.css.map",
+    "main.3f8d78b4.js.map": "/faceprep-training/static/js/main.3f8d78b4.js.map",
+    "592.a2af2e53.chunk.js.map": "/faceprep-training/static/js/592.a2af2e53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135f247c.css",
+    "static/js/main.3f8d78b4.js"
+  ]
+}
