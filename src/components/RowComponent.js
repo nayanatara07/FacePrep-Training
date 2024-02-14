@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './RowComponent.css'; 
+import '../styles/RowComponent.css'; 
 
 function RowComponent({ day }) {
   const [isClicked, setIsClicked] = useState(false);
