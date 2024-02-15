@@ -40,10 +40,12 @@
 .logo {
   position: fixed; 
   top: 50px; 
-  left: 300px; 
+  left: 200px; 
   z-index: 9999; 
   width: 200px;
   height: auto;
 }
+
+
 
 

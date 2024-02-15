@@ -1,0 +1,35 @@
+/* MainComponent.css */
+.main-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-image: url('../assets/hover.png'); /* Replace with your actual background image */
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .box-container {
+    margin-right: 20px; /* Add margin to separate BoxComponent and test buttons */
+  }
+  
+  .test-buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .test-button {
+    padding: 8px 16px;
+    background-color: #6c757d; /* Change button color */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .test-button:hover {
+    background-color: #495057; /* Change button color on hover */
+  }
+  
