@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/faceprep-training/static/css/main.c99fc43b.css",
-    "main.js": "/faceprep-training/static/js/main.9fb89859.js",
+    "main.css": "/faceprep-training/static/css/main.a0e9366c.css",
+    "main.js": "/faceprep-training/static/js/main.5ccb74af.js",
     "react-syntax-highlighter/refractor-core-import.js": "/faceprep-training/static/js/react-syntax-highlighter/refractor-core-import.2c722a53.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js",
     "react-syntax-highlighter_languages_refractor_abnf.js": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js",
@@ -282,8 +282,8 @@
     "react-syntax-highlighter_languages_refractor_zig.js": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_zig.5422bdd1.chunk.js",
     "static/media/hover.png": "/faceprep-training/static/media/hover.310a5b76e90cebc0b8bd.png",
     "index.html": "/faceprep-training/index.html",
-    "main.c99fc43b.css.map": "/faceprep-training/static/css/main.c99fc43b.css.map",
-    "main.9fb89859.js.map": "/faceprep-training/static/js/main.9fb89859.js.map",
+    "main.a0e9366c.css.map": "/faceprep-training/static/css/main.a0e9366c.css.map",
+    "main.5ccb74af.js.map": "/faceprep-training/static/js/main.5ccb74af.js.map",
     "refractor-core-import.2c722a53.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter/refractor-core-import.2c722a53.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js.map",
@@ -564,7 +564,7 @@
     "react-syntax-highlighter_languages_refractor_zig.5422bdd1.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_zig.5422bdd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c99fc43b.css",
-    "static/js/main.9fb89859.js"
+    "static/css/main.a0e9366c.css",
+    "static/js/main.5ccb74af.js"
   ]
 }
