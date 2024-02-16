@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BoxComponent from './BoxComponent';
 import CodeDisplay from './CodeDisplay';
-import { FaGithub, FaLinkedin, FaUser, FaUserGraduate } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaUser, FaUserGraduate, FaYoutube } from 'react-icons/fa';
 import '../styles/MainComponent.css';
 
 const codeForTest1 = `function Test1() {
@@ -75,6 +75,7 @@ function MainComponent() {
         </div>
       </div>
       {displayCode && <CodeDisplay code={displayCode} />}
+      
       <footer className="footer">
   <div className="footer-icons" style={{ display: 'flex' }}>
     <a href="https://github.com/nayanatara07/FacePrep-Training" target="_blank" rel="noopener noreferrer">
@@ -89,11 +90,16 @@ function MainComponent() {
     <a href="https://www.quizr.in/" target="_blank" rel="noopener noreferrer">
       <FaUser /> Quizr
     </a>
+    <a href="https://www.youtube.com/@FACEPrep" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '1rem' }}>
+      <FaYoutube /> Resources
+    </a>
   </div>
 </footer>
     </div>
   );
 }
+
+
 
 export default MainComponent;
 
