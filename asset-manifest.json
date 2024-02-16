@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/faceprep-training/static/css/main.a0e9366c.css",
-    "main.js": "/faceprep-training/static/js/main.5ccb74af.js",
+    "main.js": "/faceprep-training/static/js/main.128758d6.js",
     "react-syntax-highlighter/refractor-core-import.js": "/faceprep-training/static/js/react-syntax-highlighter/refractor-core-import.2c722a53.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js",
     "react-syntax-highlighter_languages_refractor_abnf.js": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js",
@@ -283,7 +283,7 @@
     "static/media/hover.png": "/faceprep-training/static/media/hover.310a5b76e90cebc0b8bd.png",
     "index.html": "/faceprep-training/index.html",
     "main.a0e9366c.css.map": "/faceprep-training/static/css/main.a0e9366c.css.map",
-    "main.5ccb74af.js.map": "/faceprep-training/static/js/main.5ccb74af.js.map",
+    "main.128758d6.js.map": "/faceprep-training/static/js/main.128758d6.js.map",
     "refractor-core-import.2c722a53.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter/refractor-core-import.2c722a53.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abap.87d8093b.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js.map": "/faceprep-training/static/js/react-syntax-highlighter_languages_refractor_abnf.03cc3155.chunk.js.map",
@@ -565,6 +565,6 @@
   },
   "entrypoints": [
     "static/css/main.a0e9366c.css",
-    "static/js/main.5ccb74af.js"
+    "static/js/main.128758d6.js"
   ]
 }
