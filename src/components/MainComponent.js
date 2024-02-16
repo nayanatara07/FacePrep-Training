@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import BoxComponent from './BoxComponent';
 import CodeDisplay from './CodeDisplay';
+import { FaGithub, FaLinkedin, FaUser, FaUserGraduate } from 'react-icons/fa';
 import '../styles/MainComponent.css';
-
 
 const codeForTest1 = `function Test1() {
   // Add your code here
@@ -75,12 +75,27 @@ function MainComponent() {
         </div>
       </div>
       {displayCode && <CodeDisplay code={displayCode} />}
+      <footer className="footer">
+  <div className="footer-icons" style={{ display: 'flex' }}>
+    <a href="https://github.com/nayanatara07/FacePrep-Training" target="_blank" rel="noopener noreferrer">
+      <FaGithub /> GitHub
+    </a>
+    <a href="https://www.linkedin.com/company/faceprep/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
+      <FaLinkedin /> LinkedIn
+    </a>
+    <a href="https://www.faceprep.in/skillzone/" target="_blank" rel="noopener noreferrer">
+      <FaUserGraduate /> Skillzone
+    </a>
+    <a href="https://www.quizr.in/" target="_blank" rel="noopener noreferrer">
+      <FaUser /> Quizr
+    </a>
+  </div>
+</footer>
     </div>
   );
 }
 
 export default MainComponent;
-
 
 
 
