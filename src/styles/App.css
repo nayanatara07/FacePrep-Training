@@ -32,27 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 .logo {
-  position: fixed; 
-  top: 50px; 
-  left: 50px; 
-  z-index: 9999; 
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 9999;
   width: 200px;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-

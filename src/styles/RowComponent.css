@@ -1,34 +1,30 @@
 .buttons-container {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .program-button {
   margin: 5px;
   padding: 10px 20px;
   border: none;
-  background-color: transparent; 
-  color: #000; 
+  background-color: transparent;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 50px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-  backdrop-filter: blur(5px); 
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .program-button:hover {
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
- 
+
 .row {
-    text-align: center; 
-  }
-  
-  .day-text {
-    margin-bottom: 10px; 
-  }
+  text-align: center;
+}
 
-
-
-  
+.day-text {
+  margin-bottom: 10px;
+}

@@ -3,40 +3,39 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('../assets/hover.png'); 
-  background-size: cover; 
-  background-position: center; 
+  background-image: url('../assets/hover.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .box {
-  width: 400px; 
+  width: 400px;
   padding: 20px;
   border: 2px solid #ccc;
-  border-radius: 10px; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .row {
   cursor: pointer;
-  width: 100%; 
-  box-sizing: border-box; 
-  padding: 10px; 
-  margin-top: 5px; 
-  margin-bottom: 5px; 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-
 .row:nth-child(even) {
-  background-color: #c9ecc8; 
+  background-color: #c9ecc8;
 }
 
 .row:nth-child(odd) {
-  background-color: #92d050; 
+  background-color: #92d050;
 }
 
 .row:not(:last-child) {
-  border-bottom: 1px solid #999; 
+  border-bottom: 1px solid #999;
 }

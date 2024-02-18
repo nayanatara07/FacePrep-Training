@@ -49,14 +49,10 @@ function MainComponent() {
   };
 
   const handleFormSubmit = (event) => {
-    event.preventDefault(); // Prevent the default form submission
-    
-    // Your form submission logic goes here
-    
-    // Hide the contact form
+    event.preventDefault(); 
+
     setShowContactForm(false);
-    
-    // Reset the form
+
     event.target.reset();
   };
 
