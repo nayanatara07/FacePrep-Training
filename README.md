@@ -1,6 +1,6 @@
 # Faceprep Training Repository
 
-Welcome to the [Faceprep Training Repository](https://nayanatara07.github.io/faceprep-training/) This repository contains daywise programs taught in class and practice programs to help you enhance your skills. 
+Welcome to the [Faceprep Training Repository](https://faceprep-training.vercel.app/) This repository contains daywise programs taught in class and practice programs to help you enhance your skills. 
 
 ## Getting Started
 
