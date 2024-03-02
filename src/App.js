@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import MainComponent from './components/MainComponent';
-import logo from './assets/logo.png'; 
-import './styles/App.css'; 
+import logo from './assets/logo.png';
+import './styles/App.css';
 
 function App() {
   return (
