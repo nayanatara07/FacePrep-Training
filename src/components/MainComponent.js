@@ -4,12 +4,74 @@ import CodeDisplay from './CodeDisplay';
 import { FaGithub, FaLinkedin, FaUser, FaUserGraduate, FaYoutube } from 'react-icons/fa';
 import '../styles/MainComponent.css';
 
-const codeForTest1 = `function Test1() {
-  // Add your code here
+const codeForTest1 = `#include <stdio.h>
+
+int count_vowels(char *str) {
+    int count = 0;
+    while (*str) {
+        switch (*str) {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
+                count++;
+                break;
+            default:
+                break;
+        }
+        str++;
+    }
+    return count;
+}
+
+int main() {
+    char input_string[100];
+    
+    // Input
+   
+    scanf("%s", input_string);
+    
+    // Count vowels
+    int num_vowels = count_vowels(input_string);
+    
+    // Output
+    printf("Number of vowels: %d\n", num_vowels);
+    
+    return 0;
 }`;
 
-const codeForTest2 = `function Test2() {
-  // Add your code here
+const codeForTest2 = `#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d", &n);
+	int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    int maxSum = arr[0];
+    int currentSum = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > arr[i - 1]) {
+            currentSum += arr[i]; 
+        } else {
+            if (currentSum > maxSum) {
+                maxSum = currentSum;
+            }
+            currentSum = arr[i];
+        }
+    }
+    if (currentSum > maxSum) {
+        maxSum = currentSum;
+    }
+    printf("%d\n", maxSum);
+
+    return 0;
 }`;
 
 const codeForTest3 = `function Test3() {
@@ -49,7 +111,7 @@ function MainComponent() {
   };
 
   const handleFormSubmit = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
 
     setShowContactForm(false);
 
